@@ -1,0 +1,34 @@
+let arr=[12,34,5,true, 'n', "try","catch"]
+console.log("Before adding the elemnt ");
+console.log(arr.length);
+console.log("Adding the element in the array");
+arr.push("Niraj", true, false, "manu")
+console.log(arr.length);
+arr.pop();
+console.log("After removing the last element");
+console.log(arr.length);
+console.log("Using array unshift in the array element");
+arr.unshift("Developer", "Let's started the new life");
+console.log(arr); 
+console.log("Using the spilce function to remove the elemnt from the given index");
+arr.shift(1);
+console.log(arr);
+console.log("After deleting the element");
+arr.splice(2 ,2 , true, false, "CSE");
+console.log(arr);
+console.log("using splice method no need to delete the element but add the element ");
+console.log(arr);
+arr.splice(arr.length, 0, true);
+console.log(arr);
+console.log(arr.length);
+console.log("Reverse the array");
+arr.reverse();
+console.log(arr);
+console.log("Convet array to String");
+let str=arr.toString();
+console.log(str);
+console.log("Find the given data if it is there return true if it is not there return false");
+let bool=arr.includes(2,"nira");
+console.log(bool);
+let add=arr.join("❤️");
+console.log(add);

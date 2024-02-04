@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd class of CSS Selectors </title>
+</head>
+<style>
+    h1{ 
+        font-size: large;
+        background-color: red;
+        /* background:linear-gradient(red,white,magenta) */
+    }
+    .nk{
+        
+        background-color: blue;
+        font-size: 20px;
+        color: red;
+    }
+    #n{
+        background-color: magenta;
+        color: white;
+        font-size: xx-large;
+    }
+    *{
+        word-spacing: 5px;
+        /* background-color: aqua; */
+    }
+    .nk, #n{
+        background-color: wheat;
+
+    }
+    .desendent{
+        background-color: mediumorchid;
+        text-align: center;
+    }
+    p{
+        background-color: blue;
+        color: white;
+    }
+    .d p{
+        background-color: red;
+        color: blue;
+    }
+    .d1>p{
+        background-color: rgb(208, 255, 0);
+        color: black;
+        font-size: xx-large;
+    }
+    .d2>p{
+        background-color: mediumaquamarine;
+        color: red;
+        font-size: xx-large;
+        color: magenta;
+    }
+</style>
+
+<body>
+    <h1> h1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi aut sint tenetur. Ullam esse laudantium ipsum! Nisi, quas. Enim, voluptate!</h1>
+    <h1 class="nk">Lorem ipsum dolor sit amet.</h1>
+    <p id="n">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, optio.</p>
+    <h3 id="n">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, veritatis.</h3>
+    <h1 class="desendent">Combinators</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus facere libero eius consequatur corrupti exercitationem, repellendus ab, culpa deleniti enim laboriosam. Soluta architecto corrupti quasi veritatis quibusdam eaque! Ab?</p>
+    <div class="d">
+        <p>I am you grand parent</p>
+        <div class="d1">
+            <p>I am your baap</p>
+            <div class="d2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+h1{
+    height: 200px;
+    width: 250px;
+    background-color: magenta;
+    border: solid 3px rgb(0, 255, 38);
+    /* display: block; */
+    padding: 10px;
+}
+h2{
+    height: 200px;
+    width: 250px; 
+    background-color: aqua;
+    border:dotted 3px rgb(255, 47, 47);
+    padding: 10px;
+
+}
+h3{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(247, 235, 215);
+    border: groove 3px magenta;
+    padding: 10px;
+}
+h4{
+    background-color: skyblue;
+    height: 200px;
+    width: 250px;
+    border: dashed 5px rgb(7, 178, 245);
+    padding: 10px 20px;
+}
+.nnn{
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+h5{
+    background-color: rgb(235, 135, 148);
+    height: 200px;
+    width: 250px;
+    border: solid 5px rgb(7, 178, 245);
+    padding: 10px 20px;
+    margin: 50px 0px 0px 100px ;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 30px;
+}
+    </style>
+</head>
+<body>
+    <div class="nnn">
+    <h1>Solid</h1>
+    <h2>Dotted</h2>
+    <h3>Groove</h3>
+    <h4>Dashed</h4>
+    </div>
+    <h5>Margin</h5>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseaudo properties</title>
+    <style>
+  p{
+    font-size: 30px;
+ }
+ p::first-letter{
+    font-size: 40px;
+    color: crimson;
+ }
+ p::first-line{
+    font-size: 20px;
+    color: midnightblue;
+ }
+ p::before{
+    content: "Hello I am Niraj ";
+ }
+ p::after{
+    content: "Hello hi bye ";
+    color:red;
+ }
+ input{
+    height: 50px;
+    width: 600px;
+    font-size: large;
+ }
+ input::placeholder{
+    font-size: large;
+    color: magenta;
+    text-shadow: 10px 2px 3px 4px;
+ }
+hr{
+    border: dashed 2px;
+}
+
+</style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum repudiandae voluptas doloribus ipsam laborum ipsa necessitatibus debitis totam, facilis quod! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, deserunt.</p>
+    <input type="text" placeholder="Enter your name"> <br>
+    <hr>
+</body>
+</html>

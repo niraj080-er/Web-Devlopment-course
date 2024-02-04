@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation</title>
+</head>
+<style>
+    h1{
+        background-color: magenta;
+        height: 200px;
+        width: 200px;
+        /* transform: rotate(69deg); */
+        margin:150px;
+        transition: 1s;
+    }
+    h1:hover{
+        /* transform: rotate(69deg); */
+        transform: skew(69deg);
+
+    }
+    h2{
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        margin: 150px;
+        transition: 1s;
+    }
+    h2:hover{
+        transform: rotateX(360deg);
+    }
+    h3{
+        background-color: blue;
+        height: 200px;
+        width: 200px;
+        margin: 150px;
+        transition: 1s;
+    }
+    h3:hover{
+        transform: skewX(360deg);
+    }
+    h4{
+        background-color: midnightblue;
+        width: 200px;
+        height: 200px;
+        margin: 150px;
+        transition: 2s;
+    }
+    h4:hover{
+        transform: translate(-100px);
+        
+    }
+    .nnn{
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+
+</style>
+<body>
+    <div class="nnn">
+    <h1>this position</h1>
+    <h2>transition</h2>
+    <h3>skey-pro</h3>
+    <h4>translator</h4>
+</div>
+</body>
+</html>
