@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.navbar {
+    background-color: rgb(69, 15, 119);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.logo {
+    margin:5px;
+    display: flex;
+    align-items: center;
+}
+
+.location>select {
+    margin-left: 20px;
+    background-color: rgb(69, 15, 119);
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.search>input {
+    height: 35px;
+    width: 45rem;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+    /* transform: translate(-100px);     */
+}
+
+#searchImage {
+    height: 20px;
+    z-index: 1;
+    position: relative;
+    transform: translate(30px, 5px);
+
+}
+
+.search>input::placeholder {
+    padding-left: 35px;
+}
+
+.options>button {
+    background-color: rgb(216, 66, 96);
+    color: white;
+    margin: 4px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.options>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 0px 15px;
+}
+
+.section1 {
+    background: url(https://cdn.zeptonow.com/web-static-assets-prod/artifacts/6.19.0/_next/static/media/eta_normal_sm_bg.5c27a237.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.section1>img {
+    padding: 0px 50px;
+}
+
+.innerText>p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 25px 0px 25px;
+}
+
+.innerText>h3 {
+    font-size: 25px;
+    text-align: center;
+    /* font-weight: bolder; */
+    /* padding: 0px 30px; */
+}
+
+/* pan corner */
+.paanCorner {
+    margin: 20px 0px;
+    text-align: center;
+    width: 85%;
+}
+.paanCorner>img{
+    width: 99%;
+}
+
+.newYear {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.newYear>img {
+    width:100%;
+}
+/* section 2 */
+.seeAll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px 0px 100px;
+    text-decoration: none;
+}
+.seeAll a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* picks */
+.picks{
+    display: flex;
+    justify-content: space-between;
+    margin:25px;
+}
+.product{
+    display: inline-block;
+    position: relative;
+    width: 170px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.567);
+}
+.product>a{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.innerImage{
+    text-align: center;
+    height: 50px;
+    position: relative;
+}
+.innerImage>img{
+    /* width: 50 */
+    height: 5rem;
+    margin:1rem 1rem;
+}
+.pName>h4{
+    /* overflow: hidden; */
+    margin-top: 50px;
+    color: black;
+    padding: 13px 15px 5px 15px;
+    font-size: 15px;
+    /* letter-spacing: .025em; */
+}
+.pName>span{
+    display: inline-block;
+    padding: 0px 15px 15px 15px;
+    color: grey;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+.originalPrice{
+  padding-left: 5px;
+  
+}  
+.originalPrice>span{
+    color: black;
+    
+}
+.strikeText{
+    font-size: 12px;
+    display: block;  
+    color: grey;
+    /* padding-left: 5px; */
+}
+.price>button{
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.623);
+    padding: 8px 12px;
+    background-color: white;
+}

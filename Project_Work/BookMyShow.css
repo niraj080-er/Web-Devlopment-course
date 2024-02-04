@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding: 0px 50px;
+
+}
+.logo>img{
+    height: 50px;
+    
+}
+.search>input{
+    height: 29px;
+    width: 500px;
+    transform: translate(-70px);
+    border-radius: 4px;
+    border: 1px solid rgb(238,238,238);
+}
+.select>select{
+    background-color: white;
+    border: none;
+    /* border-radius: 3px; */
+    height: 29px;
+    color: black;
+    font-size: 15px;
+    /* font-style: white; */
+}
+.sign>button{
+    height: 29px;
+    border: none;
+    border-radius: 6px;
+    background-color: crimson;
+    color: white;
+    transform: translate(-35px);
+    padding: 4px 10px;
+}
+/* Scond Navbar */
+.navlink{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: gainsboro;
+    height: 40px;
+    align-items: center;
+}
+.navlink a{
+    text-decoration: none;
+    margin: 0px 5px;
+    color:black;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.section1 img{
+    /* height: 250px;
+    width: 100%; */
+    border-radius: 10px;
+    margin: 10px;
+}
+.section1{
+    background-color: whitesmoke;
+}
+.section2 img{
+    width: 98.9vw;
+    border-radius: 20px;
+
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px 0px 60px;
+    font-family: sans-serif;
+    align-items: center;
+}
+.section3 a{
+    color: red;
+    text-decoration: none;
+}
+.section4{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    font-family: sans-serif;
+}
+.sub1 img{
+    height: 320px;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    top:100px;
+    transition: 1s;
+}
+.sub1 img:hover{
+    top:0px;
+}
+.sub1{
+    height: 400px;
+    width: 190px;
+}
+.sub1 span{
+    color: gray;
+}
+.section5 img{
+    width: 93vw;
+    border-radius: 20px;
+    margin: 50px;
+}
+#searchicon{
+    height: 28px;
+    z-index: 1;
+    position: relative;
+    transform: translate(-35px,10px);
+
+}
+.search ::placeholder{
+    transform: translate(30px);
+}
